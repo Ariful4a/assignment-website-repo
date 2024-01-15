@@ -1,0 +1,99 @@
+
+header{
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.hero-section{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 44px;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+.hero-section img{
+    width: 48px;
+    height: 56.008px;
+    padding-top: 20px;
+
+}
+.Travels-sec{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    margin-left: 10px;
+    font-weight: 800;
+
+}
+.home{
+    color: #FF5400;
+}
+.travel{
+    color: #FF5400;
+    margin-left: 3px;
+}
+/*Benear section style*/
+.expplor-section{
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+}
+.explor{
+    text-align: center;
+    color: #FFFFFF;
+}
+.benner-section{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    margin-left: 100px;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+   
+}
+
+
+.input-section input{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    justify-content: center;
+    gap: 24px;
+    background: #FFF;
+}
+.input-section{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 60px;
+}
+.find{
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+}
+.select{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+}
