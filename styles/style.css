@@ -400,6 +400,88 @@ nav li a{
 }
 .ll{
     margin-right: 30px;
+    
+}
+.login-form-container{
+        margin-right:100px;
+        border: solid rgb(163, 162, 162);
+        background-color: #FFF;
+    
+        margin-left: 30px;
+        margin-bottom: 130px;
+        
+    
+}
+.login-form{
+    margin-left: 20px;
+ 
+}
+form input{
+    
+    width: 393px;
+    height: 52px;
+    column-gap: 10px;
+    
+} 
+
+.lo{
+    border-radius: 8px;
+    background: #FF5400;
+    color: rgb(252, 245, 245);
+    
+}
+.zz{
+    display: flex;
+    margin-right: px;
+    gap: 10px;
+    margin-top: 50px;
+}
+.bbbb img{
+    width: 672px;
+    height: 422px;
+    
+
+}
+.zaza{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    width: 342px;
+    padding: 1px;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+    ruby-align: right;
+}
+.zaza h2{
+    font-size: 32px;
+    text-align: center;
+}
+.zaza p{
+    font-size: 24px;
+    text-align: center;
+}
+.trav-sec{
+    display: flex;
+    margin-left: 470px;
+    
+}
+.trav-sec img{
+    padding-top: 8px;
+}
+.footer-sec{
+    text-align: center;
+}
+.icon-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 174px;
+    height: 24px;
+    margin-left: 530px;
+    margin-bottom: 30px;
+}
+.op{
+    text-align: center;
 }
 /*Responsive style for mobile*/
 
@@ -542,6 +624,24 @@ nav li a{
         height: 400px;
         margin-left: 50px;
         padding-bottom: 18px;
+    }
+    .flex-sec{
+        flex-direction: column;
+    }
+    .ll{
+        margin-right: 50px;
+        width: 500px;
+        padding-right: 20px;
+        
+    }
+    .zz{
+        flex-direction: column;
+    }
+    .trav-sec{
+        margin-left: 120px;
+    }
+    .icon-sec{
+        margin-left: 200px;
     }
     
 }
