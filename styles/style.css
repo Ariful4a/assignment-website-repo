@@ -370,6 +370,37 @@ nav li a{
     color: #FFF;
     margin-left: 550px;
 }
+.seemore-section{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+
+}
+.perfect-sec{
+    margin-left: 50px;
+}
+.our-misson{
+    position: absolute;
+    padding: 170px 167px;
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+}
+.flex-sec{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.ll{
+    margin-right: 30px;
+}
 /*Responsive style for mobile*/
 
 @media screen and (max-width: 600px) {
@@ -512,9 +543,5 @@ nav li a{
         margin-left: 50px;
         padding-bottom: 18px;
     }
-    .azz{
-        margin-left: 0px;
-    }
-       
     
 }
