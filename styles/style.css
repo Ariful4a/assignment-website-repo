@@ -89,7 +89,7 @@ nav li a{
     background: #FF5400;
     width: 184px;
     height: 52px;
-    flex-shrink: 0;
+    color: #FFFFFF;
 }
 .select{
     width: 174px;
@@ -281,16 +281,94 @@ nav li a{
     margin-left: 40px;
     margin-bottom: 24px;
 }
-div > ul{
+.location-sec ul{
     display: flex;
 
 }
- div li{
+ .location-sec li{
     list-style: none;
     margin-right: 40px;
+    
 }
 .location-sec{
     margin-top: 40px;
+}
+
+    
+
+
+.discount-sec{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    width: 579px;
+    height: 350px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin-top: 80px;
+    margin-left: 535px;
+    padding-top: 40px;
+   
+}
+.qqq{
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    margin-left: 40px;
+    padding-top: 2px;
+    margin-bottom: 30px;
+    
+    
+   
+    
+}
+.to-sec{
+    margin-left: 40px;
+    padding-top: 40px;
+}
+.www{
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    margin-left: 40px;
+    padding-top: 2px;
+    margin-bottom: 30px;
+    
+
+}
+.contant-2{
+    width: 579px;
+    height: 350px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin-top: 80px;
+    margin-left: 50px;
+    padding-top: 40px;
+
+}
+.red-sec{
+    color: #FF5400;
+}
+.book-sec{
+    background-color: #FF5400;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    color: #FFF;
+}
+.aaz{
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    margin-left: 550px;
 }
 /*Responsive style for mobile*/
 
@@ -404,6 +482,38 @@ div > ul{
     }
     .prc-sec{
         margin-left: 5px;
+    }
+    .qqq{
+        width: 500px;
+        height: 500px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+
+        
+    }
+    .container{
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+        padding-bottom: 18px;
+        
+    }
+    .www{
+        width: 500px;
+        height: 500px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+
+
+    }
+    .contant-2{
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+        padding-bottom: 18px;
+    }
+    .azz{
+        margin-left: 0px;
     }
        
     
