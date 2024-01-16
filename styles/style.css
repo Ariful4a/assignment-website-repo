@@ -135,8 +135,82 @@ nav li a{
     font-size: 40px;
     font-weight: 800;
 }
-.maldives-sec{
+.maldives img{
+    width: 573px;
+    height: 300px;
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.country-name{
     position: absolute;
+    padding-top: 90px;
+    padding-left: 200px;
+    color: rgb(246, 241, 241);
+    font-size: 42px;
+}
+.maldives-sec{
+    margin-left: 50px;
+}
+.indonesia-sec{
+    margin-left: 10px;
+}
+.nb{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 200px;
+    color: rgb(246, 241, 241);
+    font-size: 42px;
+}
+.srilonka-s{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 115px;
+    color: rgb(246, 241, 241);
+    font-size: 42px;
+}
+.north-sec{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 115px;
+    color: rgb(246, 241, 241);
+    font-size: 42px;
+}
+.kasmir-sec{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 60px;
+    color: rgb(246, 241, 241);
+    font-size: 42px;
+}
+.sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 22px;
+    margin-left: 48px;
+    margin-top: 20px;
+}
+.bangla-sec{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 130px;
+    color: rgb(246, 241, 241);
+    font-size: 42px;
+}
+.bandarban-sec{
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 230px;
+    color: rgb(246, 241, 241);
+    font-size: 42px;
+}
+.last-imege-style{
+    margin-top: 22px;
+    display: flex;
+    margin-left: 44px;
+    gap: 24px;
 }
 /*Responsive style for mobile*/
 
@@ -196,7 +270,53 @@ nav li a{
         margin-left: 8px;
         padding-left: 10px;
     }
-    
+    .row{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+    }
+    .maldives-sec{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .sec{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .sri-section img{
+        width: 500px;
+        height: 300px;
+        
+        
+    }
+    .kas-s img{
+        width: 500px;
+        height: 300px;
+    }
+    .kasmir-sec{
+        padding-left: 160px;
+    }
+    .b-s img{
+        width: 500px;
+    }
+    .srilonka-s{
+        padding-top: 130px;
+        padding-left: 170px;
+    }
+    .nor-s img{
+        width: 500px;
+
+    }
+    .bb-sec img{
+        width: 500px;
+        height: 300px;
+
+    }
+    .last-imege-style{
+       flex-direction: column;
+    }
+    .bandarban-sec{
+        padding-left: 150px;
+    }
        
     
 }
