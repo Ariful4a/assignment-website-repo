@@ -125,6 +125,19 @@ nav li a{
     padding-left: 105px;
     padding-right: 4px;
 }
+.Destination-sec{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+#heading-sec{
+    font-size: 40px;
+    font-weight: 800;
+}
+.maldives-sec{
+    position: absolute;
+}
 /*Responsive style for mobile*/
 
 @media screen and (max-width: 600px) {
