@@ -212,6 +212,86 @@ nav li a{
     margin-left: 44px;
     gap: 24px;
 }
+.why-sec{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.wh-sec{
+    text-align: center;
+    margin-top: 100px;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.ht-sec{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+  
+}
+.hotel-section{
+    margin-left: 50PX;
+    padding-top: 40px;
+}
+.mp-sec{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    
+  
+
+}
+.map-font-style{
+    margin-left: 50PX;
+    padding-top: 40px;
+
+}
+.hhh{
+    padding-top: 30px;
+}
+.ggg{
+    padding-top: 30px;
+
+}
+.prc-sec{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 350px;
+
+}
+.price-section{
+    margin-left: 50PX;
+    padding-top: 40px;
+
+   
+
+}
+.sss{
+    padding-top: 30px;
+}
+.grid-section{
+    display: flex;
+    gap: 24px;
+    margin-left: 40px;
+    margin-bottom: 24px;
+}
+div > ul{
+    display: flex;
+
+}
+ div li{
+    list-style: none;
+    margin-right: 40px;
+}
+.location-sec{
+    margin-top: 40px;
+}
 /*Responsive style for mobile*/
 
 @media screen and (max-width: 600px) {
@@ -316,6 +396,14 @@ nav li a{
     }
     .bandarban-sec{
         padding-left: 150px;
+    }
+    .grid-section{
+        flex-direction: column;
+        width: 335px;
+        margin-left: 5px;
+    }
+    .prc-sec{
+        margin-left: 5px;
     }
        
     
